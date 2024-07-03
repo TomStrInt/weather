@@ -37,12 +37,12 @@ const weatherData = {
 };
 
 
-console.log("Pogoda dla Poznania:  ")
-	console.log(`
-		Czas  ${weatherData.current.time.toISOString()},
-		Temperatura ${weatherData.current.temperature2m} \n
+console.log("Pogoda dla Poznania:  ");
+console.log(`
+		Czas  ${weatherData.current.time.toISOString()}
+		Temperatura ${weatherData.current.temperature2m} C \n
         Opady ${weatherData.current.rain},
-        Predkosc wiatru ${weatherData.current.windSpeed10m} \n`
+        Predkosc wiatru ${weatherData.current.windSpeed10m} km/h \n`
 	);
 
 if(weatherData.current.temperature2m<15){
