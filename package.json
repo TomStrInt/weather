@@ -1,21 +1,19 @@
 {
-  "name": "weather",
+  "name": "meteo",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "build": "npx tsc"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "description": "",
-  "devDependencies": {
-    "@types/node": "^20.14.9",
-    "typescript": "^5.5.3"
-  },
   "dependencies": {
+    "esrun": "^3.2.26",
     "openmeteo": "^1.1.4"
+  },
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^5.5.3"
   }
 }
